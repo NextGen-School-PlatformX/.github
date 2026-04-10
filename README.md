@@ -6,9 +6,9 @@
 
 <br/>
 
-<!-- ANIMATED TITLE -->
+<!-- ANIMATED TITLE (self-hosted SVG — works on GitHub org profiles) -->
 <h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=🏫+NextGen+School+PlatformX;⚙️+SIOMS+%7C+School+Internal+Operations;🎓+SASMS+%7C+Student+Affairs+%26+Services;🚀+Built+by+Team+EVA" alt="Typing SVG" />
+  <img src="./typing.svg" alt="NextGen School PlatformX" width="700"/>
 </h1>
 
 <!-- BADGES -->
