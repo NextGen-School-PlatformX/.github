@@ -1,0 +1,53 @@
+<svg width="700" height="50" viewBox="0 0 700 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'Courier New', monospace;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #4FC3F7;
+      text-anchor: middle;
+    }
+
+    /* Each line fades in and out in sequence */
+    .line1 { animation: cycle1 12s infinite; }
+    .line2 { animation: cycle2 12s infinite; }
+    .line3 { animation: cycle3 12s infinite; }
+    .line4 { animation: cycle4 12s infinite; }
+
+    @keyframes cycle1 {
+      0%   { opacity: 1; }
+      20%  { opacity: 1; }
+      25%  { opacity: 0; }
+      95%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes cycle2 {
+      0%   { opacity: 0; }
+      22%  { opacity: 0; }
+      27%  { opacity: 1; }
+      45%  { opacity: 1; }
+      50%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes cycle3 {
+      0%   { opacity: 0; }
+      47%  { opacity: 0; }
+      52%  { opacity: 1; }
+      70%  { opacity: 1; }
+      75%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes cycle4 {
+      0%   { opacity: 0; }
+      72%  { opacity: 0; }
+      77%  { opacity: 1; }
+      95%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+
+  <text x="350" y="35" class="text line1">🏫 NextGen School PlatformX</text>
+  <text x="350" y="35" class="text line2">⚙️ SIOMS | School Internal Operations</text>
+  <text x="350" y="35" class="text line3">🎓 SASMS | Student Affairs &amp; Services</text>
+  <text x="350" y="35" class="text line4">🚀 Built with ❤️ by Team EVA</text>
+</svg>
